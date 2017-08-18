@@ -11,13 +11,23 @@ class ApplicationController < Sinatra::Base
     erb :index
   end
   
+  get '/aboutus' do
+    erb :aboutus
+  end
+  
+  get '/index' do
+    erb :index
+  end  
+  
   get '/quiz2' do
     erb :quiz2
   end  
   
   post '/results' do
-    @result = excercise(params[:activity])
-    puts params
+    @result = result(params[:activity], params[:time], params[:price])
+    @result2 = jimmy(params[:activity], params[:time], params[:price])
+    @result3 = pictures(params[:activity], params[:time], params[:price])
+    
     erb :results
   end
 end
