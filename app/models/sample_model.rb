@@ -122,7 +122,7 @@ excercise= {
                       },
                       
                 :two =>{:free => "https://media-cdn.tripadvisor.com/media/photo-s/01/20/67/b1/hanging-out-in-the-pool.jpg",
-                      :little => "https://media.timeout.com/images/102503695/image.jpg",
+                      :little => "https://www.stratton.com/-/media/stratton/images/summer/1800x1012/activities/music/2017/170807_greenskybluegrass_1800x1012.ashx?h=1012&w=1800&hash=AD5C8440612AFB2832E9AD84F8072C9E02A2D835",
                       :lot => "http://vignette4.wikia.nocookie.net/coasterpedia/images/1/1a/AmusementPark.jpg/revision/latest?cb=20101130191049"
                       } 
                 },
